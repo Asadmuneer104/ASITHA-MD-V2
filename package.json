@@ -1,12 +1,12 @@
 {
-  "name": "ASITHA-MD",
+  "name": "SKELETON-MD",
   "version": "3.1.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name ASITHA-MD",
-    "stop": "pm2 stop ASITHA-MD",
-    "restart": "pm2 restart ASITHA-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name SKELETON-MD",
+    "stop": "pm2 stop SKELETON-MD",
+    "restart": "pm2 restart SKELETON-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "latest",
